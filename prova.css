@@ -1,0 +1,133 @@
+header {
+    background-color: #9D8080;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.hero {
+    background-image: url(DeCima.jpg);
+    background-size: 100%;
+    padding: 166px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+.new {
+    color: #C3C63B;
+    text-align: center;
+}
+
+.social {
+    background-color: #393F06;
+    color: #B5B936;
+    text-align: center;
+    font-size: 15px;
+}
+
+h5 {
+    font-size: 35px;
+}
+
+.div4 {
+    text-align: center;
+    background-color: #191C03;
+    color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.texto {
+    text-align: center;
+}
+
+.div5,
+.div6,
+.div7 {
+    flex: 0 1 calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+.paraiso {
+    background-color: #C3C63B;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.img-container {
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-image1 {
+    width: 500px;
+    height: 400px;
+    border: 20px solid #C3C63B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-image2 {
+    width: 600px;
+    height: 400px;
+    border: 20px solid #C3C63B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-image3 {
+    width: 600px;
+    height: 400px;
+    border: 20px solid #C3C63B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-image4 {
+    width: 500px;
+    height: 400px;
+    border: 20px solid #C3C63B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
